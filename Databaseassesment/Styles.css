@@ -1,0 +1,90 @@
+﻿body {
+margin : 0; 
+padding : 0; 
+background-color : #fff; 
+color : #333; 
+background-image : url(Images/3.jpg); 
+background-repeat : no-repeat; 
+}
+
+#header {
+height : 25px; 
+padding-left : 0; 
+border-bottom : 0 solid #006; 
+margin-bottom : 0; 
+background-image : url(Images/1.jpg); 
+}
+
+#contenthead {
+height : 66px; 
+margin-bottom : 10px; 
+margin-left : 5px; 
+background-image : url(Images/2.jpg); 
+} 
+h1 {
+font-size : 2.6em; 
+color : #000; 
+margin-top : 3px; 
+font-family : "firenze sf", verdana, arial, sans-serif ; 
+} 
+
+#menu ul {
+margin : 0; 
+margin-bottom : 0; 
+float :right; 
+font : bold 110% Tohoma; 
+width : 80%; 
+border : 0 solid #625e00; 
+}
+
+#menu ul li {
+display : inline; 
+} 
+
+#menu ul li a {
+color : #000; 
+padding-right : 36px; 
+text-decoration : none; 
+} 
+
+#menu ul li a:visited {
+color : #784B22; 
+} 
+
+#menu ul li a:hover {
+color : #006600; 
+}
+
+#left {
+width : 200px; 
+float : left; 
+height : 375px; 
+margin-top : 1px; 
+margin-left : -1px; 
+padding : 0; 
+}
+ 
+img.left {
+float : left; 
+margin-right : 5px; 
+border : 0px outset #6d8458; 
+} 
+
+#content {
+padding-right : 5px; 
+margin-top : 10px; 
+margin-left : 310px; 
+border-right : 0px double #edb663; 
+background-image : url(Images/5.jpg); 
+background-repeat : no-repeat;
+background-position : bottom right;
+} 
+
+#content a {
+color : #000; 
+text-decoration : underline; 
+}
+
+#content a:hover {
+color : #006600; 
+}
